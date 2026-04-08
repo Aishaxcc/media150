@@ -1,21 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Field Blur Exercise</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homework 3 - Field Blur</title>
+<style>
+body {
+  background-color: #ffe4ec;
+  color: #1f3d2b;
+  font-family: "Times New Roman", Times, serif;
+  margin: 40px;
+  text-align: center;
+}
+h1 {
+  font-size: 36px;
+}
+p {
+  font-size: 18px;
+  max-width: 850px;
+  margin: 20px auto;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+figure {
+  width: 420px;
+  background-color: #f0fff4;
+  border: 2px solid #ffb6c1;
+  border-radius: 12px;
+  padding: 15px;
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+}
+</style>
 </head>
-<body style="background-color:#ffe4ef; color:hotpink; font-family:Arial;">
+<body>
 
-<h1>Field Blur Exercise</h1>
+<h1>Homework 3 - Field Blur</h1>
 
-<a href="index.html">Home</a>
+<p>
+This page shows the original image and the edited image using Photoshop's Field Blur tool.
+</p>
 
-<h2>Before</h2>
-<img src="fieldblur_before.jpg" width="400" />
-<p>Original image before blur.</p>
+<div class="gallery">
+  <figure>
+    <img src="field_blur_b4.JPG" alt="Original image before field blur">
+    <figcaption>Original image before using Photoshop Field Blur.</figcaption>
+  </figure>
 
-<h2>After</h2>
-<img src="fieldblur_after.jpg" width="400" />
-<p>Field blur applied to create shallow depth of field.</p>
+  <figure>
+    <img src="field_blur_after.jpg" alt="Edited image after field blur">
+    <figcaption>Edited image after using Photoshop Field Blur to create a shallow depth-of-field effect.</figcaption>
+  </figure>
+</div>
+
+<p>
+In this exercise, I used Photoshop’s Field Blur tool to simulate depth of field. By adding blur selectively, I was able to control where the viewer looks in the image. This showed me how editing tools can recreate camera effects and enhance focus even after the photo is taken.
+</p>
 
 </body>
 </html>
