@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Homework 3 - Camera Raw</title>
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Homework 3 - Depth of Field</title>
 <style>
 body {
   background-color: #ffe4ec;
@@ -12,76 +12,61 @@ body {
   margin: 40px;
   text-align: center;
 }
-
-h1 { font-size: 36px; }
-h2 { margin-top: 40px; }
-
+h1 {
+  font-size: 36px;
+}
+p {
+  font-size: 18px;
+  max-width: 850px;
+  margin: 20px auto;
+  }
 .gallery {
   display: flex;
   justify-content: center;
   gap: 30px;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
-
 figure {
   width: 420px;
-  background: #f0fff4;
-  padding: 15px;
+  background-color: #f0fff4;
   border: 2px solid #ffb6c1;
   border-radius: 12px;
+  padding: 15px;
 }
-
-img { width: 100%; }
-
-p { font-size: 18px; max-width: 800px; margin: 20px auto; }
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+figcaption {
+  margin-top: 10px;
+  font-size: 16px;
+}
 </style>
 </head>
-
 <body>
 
-<h1>Homework 3 - Camera Raw</h1>
+<h1>Homework 3 - Depth of Field</h1>
 
-<h2>JPEG Edit</h2>
+<p>
+This page shows one shallow depth of field image and one deep depth of field image.
+</p>
+
 <div class="gallery">
   <figure>
-    <img src="books_b4.jpg">
-    <figcaption>Original JPEG image.</figcaption>
+    <img src="field_blur_b4.JPG" alt="Shallow depth of field image">
+    <figcaption>Shallow depth of field: the octopus is in focus while the background is blurred.</figcaption>
   </figure>
 
   <figure>
-    <img src="bookshelf_edit.jpg">
-    <figcaption>Edited JPEG using Camera Raw.</figcaption>
-  </figure>
-</div>
-
-<h2>RAW Edit</h2>
-<div class="gallery">
-  <figure>
-    <img src="clothes_b44.jpg">
-    <figcaption>Original RAW image.</figcaption>
-  </figure>
-
-  <figure>
-    <img src="CLOTHES_EDIT.JPG.jpg">
-    <figcaption>Edited RAW using Camera Raw.</figcaption>
-  </figure>
-</div>
-
-<h2>Extra Edit (Desk)</h2>
-<div class="gallery">
-  <figure>
-    <img src="desk_before.JPG">
-    <figcaption>Original desk image.</figcaption>
-  </figure>
-
-  <figure>
-    <img src="DESK_EDIT.JPG.jpg">
-    <figcaption>Edited desk image.</figcaption>
+    <img src="desk_before.JPG" alt="Deep depth of field image">
+    <figcaption>Deep depth of field: more of the scene remains in focus.</figcaption>
   </figure>
 </div>
 
 <p>
-In this assignment, I used Camera Raw to adjust exposure, contrast, highlights, and color balance. The RAW file allowed me to make stronger edits without losing quality, while the JPEG image had less flexibility. This process helped me understand how professional photographers rely on RAW files for better editing control and image quality.
+For this assignment, I experimented with depth of field by adjusting my camera settings. In the shallow depth of field image, the subject is clearly separated from the background, which draws attention to it. In the deep depth of field image, more of the environment is visible and in focus. This helped me understand how aperture and focus affect storytelling in photography.
 </p>
 
 </body>
