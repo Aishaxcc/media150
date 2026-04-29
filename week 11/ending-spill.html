@@ -1,23 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ending: Spill</title>
+  <title>Ending: The Spill</title>
   <style>
     body {
-      background: #2d1254;
-      color: white;
+      margin: 0;
       font-family: "Times New Roman", serif;
+      background: linear-gradient(rgba(45,18,84,0.8), rgba(45,18,84,0.8)), url('images/spill.jpg');
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .box {
+      position: absolute;
+      bottom: 70px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 75%;
+      background: rgba(45, 18, 84, 0.92);
+      padding: 30px;
+      border-radius: 12px;
       text-align: center;
-      padding-top: 150px;
+    }
+
+    h1 { font-size: 42px; }
+    p { font-size: 20px; line-height: 1.5; }
+
+    a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 20px;
+      background: #6b4eff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+
+    a:hover {
+      background: #ffe4ef;
+      color: black;
     }
   </style>
 </head>
 
 <body>
-  <h1>Ending 1: The Spill</h1>
-  <p>Your drink spills everywhere.</p>
-  <p>You leave immediately.</p>
+  <div class="box">
+    <h1>Ending One: The Spill</h1>
+    <p>You finally sit. You try to act normal.</p>
+    <p>Then your drink tips over and spreads across the table. Everyone notices. You leave before anyone says anything.</p>
+    <p>The seat was never really yours.</p>
 
-  <a href="index.html">Restart</a>
+    <a href="index.html">Restart</a>
+  </div>
 </body>
 </html>
