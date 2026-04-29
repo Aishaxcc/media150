@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Drink</title>
-
+  <title>The Drink</title>
   <style>
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-      background: linear-gradient(180deg, #2d1254, #6b4eff);
+      background: linear-gradient(rgba(45,18,84,0.75), rgba(45,18,84,0.75)), url('images/drink.jpg');
+      background-size: cover;
+      background-position: center;
       color: white;
     }
 
     .box {
       position: absolute;
-      bottom: 80px;
+      bottom: 70px;
       left: 50%;
       transform: translateX(-50%);
       width: 75%;
-      background: rgba(45, 18, 84, 0.85);
+      background: rgba(45, 18, 84, 0.9);
       padding: 30px;
       border-radius: 12px;
       text-align: center;
     }
 
+    h1 { font-size: 42px; }
+    p { font-size: 20px; line-height: 1.5; }
+
     a {
       display: inline-block;
-      margin-top: 15px;
+      margin: 10px;
       padding: 12px 20px;
       background: #6b4eff;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
     }
 
     a:hover {
@@ -42,12 +46,12 @@
 
 <body>
   <div class="box">
-    <h1>You Grab a Drink</h1>
+    <h1>You Get a Drink</h1>
+    <p>You buy a drink just to have something to do with your hands.</p>
+    <p>For a second, it feels like a reset. Then you realize you still have nowhere to go.</p>
 
-    <p>You finally relax.</p>
-    <p>Then your hand slips.</p>
-
-    <a href="ending-spill.html">Continue</a>
+    <a href="ending-spill.html">Sit down with the drink</a>
+    <a href="decision.html">Keep walking</a>
   </div>
 </body>
 </html>
