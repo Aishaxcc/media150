@@ -2,13 +2,11 @@
 <html>
 <head>
   <title>No Seat</title>
-
   <style>
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-      background: linear-gradient(rgba(45,18,84,0.8), rgba(45,18,84,0.8)),
-                  url('images/hallway.jpg');
+      background: linear-gradient(rgba(45,18,84,0.75), rgba(45,18,84,0.75)), url('images/hallway.jpg');
       background-size: cover;
       background-position: center;
       color: white;
@@ -16,7 +14,7 @@
 
     .box {
       position: absolute;
-      bottom: 80px;
+      bottom: 70px;
       left: 50%;
       transform: translateX(-50%);
       width: 75%;
@@ -26,22 +24,17 @@
       text-align: center;
     }
 
-    h1 {
-      font-size: 48px;
-    }
-
-    p {
-      font-size: 20px;
-    }
+    h1 { font-size: 48px; }
+    p { font-size: 20px; line-height: 1.5; }
 
     a {
       display: inline-block;
-      margin-top: 15px;
+      margin: 10px;
       padding: 12px 20px;
       background: #6b4eff;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
     }
 
     a:hover {
@@ -54,10 +47,12 @@
 <body>
   <div class="box">
     <h1>No Seat</h1>
-    <p>Two hours until your next class.</p>
-    <p>You just need somewhere to sit.</p>
+    <p>You leave class and check the time. Two hours until your next class.</p>
+    <p>Your bag is heavy, your phone is dying, and every seat feels like it already belongs to someone else.</p>
+    <p>Where do you go first?</p>
 
-    <a href="lounge.html">Begin</a>
+    <a href="lounge.html">Check the lounge</a>
+    <a href="outside.html">Go outside</a>
   </div>
 </body>
 </html>
