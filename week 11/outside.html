@@ -2,13 +2,11 @@
 <html>
 <head>
   <title>Outside</title>
-
   <style>
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-      background: linear-gradient(rgba(45,18,84,0.7), rgba(45,18,84,0.7)),
-                  url('images/outside.jpg');
+      background: linear-gradient(rgba(45,18,84,0.75), rgba(45,18,84,0.75)), url('images/outside.jpg');
       background-size: cover;
       background-position: center;
       color: white;
@@ -16,7 +14,7 @@
 
     .box {
       position: absolute;
-      bottom: 80px;
+      bottom: 70px;
       left: 50%;
       transform: translateX(-50%);
       width: 75%;
@@ -25,6 +23,9 @@
       border-radius: 12px;
       text-align: center;
     }
+
+    h1 { font-size: 42px; }
+    p { font-size: 20px; line-height: 1.5; }
 
     a {
       display: inline-block;
@@ -35,14 +36,19 @@
       text-decoration: none;
       border-radius: 8px;
     }
+
+    a:hover {
+      background: #ffe4ef;
+      color: black;
+    }
   </style>
 </head>
 
 <body>
   <div class="box">
-    <h1>You step outside.</h1>
-    <p>The air hits you. It’s quieter, but not comfortable.</p>
-    <p>You still don’t have a place to be.</p>
+    <h1>Outside</h1>
+    <p>You step outside hoping the air will make you feel less trapped.</p>
+    <p>There are people everywhere. Even outside, there is no real place to pause.</p>
 
     <a href="floor.html">Sit on the ground</a>
     <a href="decision.html">Go back inside</a>
