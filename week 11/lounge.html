@@ -7,7 +7,13 @@
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-      background: linear-gradient(180deg, #2d1254, #6b4eff);
+
+      background: linear-gradient(rgba(45,18,84,0.7), rgba(45,18,84,0.7)),
+                  url('images/lounge.jpg');
+
+      background-size: cover;
+      background-position: center;
+
       color: white;
     }
 
@@ -25,32 +31,29 @@
 
     a {
       display: inline-block;
-      margin-top: 15px;
-      margin-right: 10px;
+      margin: 10px;
       padding: 12px 20px;
       background: #6b4eff;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
     }
 
     a:hover {
-      background: #ffe4ef;
-      color: black;
+      background: #4a32cc;
     }
   </style>
 </head>
 
 <body>
-  <div class="box">
-    <h1>The Lounge</h1>
 
-    <p>The room is full.</p>
-    <p>Bags on chairs.</p>
-    <p>You see one empty seat.</p>
+<div class="box">
+  <h1>You find a seat in the lounge.</h1>
+  <p>Finally. You can breathe… but something feels off.</p>
 
-    <a href="saved-seat.html">Take it</a>
-    <a href="ask.html">Ask first</a>
-  </div>
+  <a href="drink.html">Get a drink</a>
+  <a href="saved-seat.html">Stay and guard your seat</a>
+</div>
+
 </body>
 </html>
