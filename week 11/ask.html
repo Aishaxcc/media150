@@ -2,36 +2,39 @@
 <html>
 <head>
   <title>Ask First</title>
-
   <style>
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-      background: linear-gradient(180deg, #2d1254, #6b4eff);
+      background: linear-gradient(rgba(45,18,84,0.75), rgba(45,18,84,0.75)), url('images/ask.jpg');
+      background-size: cover;
+      background-position: center;
       color: white;
     }
 
     .box {
       position: absolute;
-      bottom: 80px;
+      bottom: 70px;
       left: 50%;
       transform: translateX(-50%);
       width: 75%;
-      background: rgba(45, 18, 84, 0.85);
+      background: rgba(45, 18, 84, 0.9);
       padding: 30px;
       border-radius: 12px;
       text-align: center;
     }
 
+    h1 { font-size: 42px; }
+    p { font-size: 20px; line-height: 1.5; }
+
     a {
       display: inline-block;
-      margin-top: 15px;
-      margin-right: 10px;
+      margin: 10px;
       padding: 12px 20px;
       background: #6b4eff;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
     }
 
     a:hover {
@@ -44,12 +47,11 @@
 <body>
   <div class="box">
     <h1>You Ask First</h1>
-
-    <p>"Is anyone sitting here?"</p>
-    <p>"No, go ahead."</p>
+    <p>“Is anyone sitting here?” you ask.</p>
+    <p>The person says no, but their bag, charger, coat, and coffee are still spread across the space.</p>
 
     <a href="drink.html">Relax with a drink</a>
-    <a href="floor.html">Still feel awkward</a>
+    <a href="decision.html">Still feel unsure</a>
   </div>
 </body>
-</html>
+</html>   
