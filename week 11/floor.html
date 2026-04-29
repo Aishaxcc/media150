@@ -1,36 +1,40 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html>
 <head>
-  <title>Floor</title>
-
+  <title>The Floor</title>
   <style>
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-      background: linear-gradient(180deg, #2d1254, #6b4eff);
+      background: linear-gradient(rgba(45,18,84,0.75), rgba(45,18,84,0.75)), url('images/floor.jpg');
+      background-size: cover;
+      background-position: center;
       color: white;
     }
 
     .box {
       position: absolute;
-      bottom: 80px;
+      bottom: 70px;
       left: 50%;
       transform: translateX(-50%);
       width: 75%;
-      background: rgba(45, 18, 84, 0.85);
+      background: rgba(45, 18, 84, 0.9);
       padding: 30px;
       border-radius: 12px;
       text-align: center;
     }
 
+    h1 { font-size: 42px; }
+    p { font-size: 20px; line-height: 1.5; }
+
     a {
       display: inline-block;
-      margin-top: 15px;
+      margin: 10px;
       padding: 12px 20px;
       background: #6b4eff;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
     }
 
     a:hover {
@@ -43,10 +47,11 @@
 <body>
   <div class="box">
     <h1>You Sit on the Floor</h1>
+    <p>At first, it feels embarrassing.</p>
+    <p>Then another student sits nearby. Then another. Suddenly the floor does not feel like failure.</p>
 
-    <p>It’s awkward… but kinda peaceful.</p>
-
-    <a href="ending-floor.html">Continue</a>
+    <a href="ending-floor.html">Stay there</a>
+    <a href="decision.html">Get up again</a>
   </div>
 </body>
 </html>
