@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Lounge</title>
-
+  <title>The Lounge</title>
   <style>
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-
-      background: linear-gradient(rgba(45,18,84,0.7), rgba(45,18,84,0.7)),
-                  url('images/lounge.jpg');
-
+      background: linear-gradient(rgba(45,18,84,0.75), rgba(45,18,84,0.75)), url('images/lounge.jpg');
       background-size: cover;
       background-position: center;
-
       color: white;
     }
 
     .box {
       position: absolute;
-      bottom: 80px;
+      bottom: 70px;
       left: 50%;
       transform: translateX(-50%);
       width: 75%;
-      background: rgba(45, 18, 84, 0.85);
+      background: rgba(45, 18, 84, 0.9);
       padding: 30px;
       border-radius: 12px;
       text-align: center;
     }
+
+    h1 { font-size: 42px; }
+    p { font-size: 20px; line-height: 1.5; }
 
     a {
       display: inline-block;
@@ -40,20 +38,20 @@
     }
 
     a:hover {
-      background: #4a32cc;
+      background: #ffe4ef;
+      color: black;
     }
   </style>
 </head>
 
 <body>
+  <div class="box">
+    <h1>The Lounge</h1>
+    <p>The room is full. Bags are on chairs. People are stretched across tables like the space belongs to them.</p>
+    <p>You see one empty seat in the corner. It feels like a trap, but it is still the only open chair.</p>
 
-<div class="box">
-  <h1>You find a seat in the lounge.</h1>
-  <p>Finally. You can breathe… but something feels off.</p>
-
-  <a href="drink.html">Get a drink</a>
-  <a href="saved-seat.html">Stay and guard your seat</a>
-</div>
-
+    <a href="saved-seat.html">Take the seat quickly</a>
+    <a href="ask.html">Ask if it is taken</a>
+  </div>
 </body>
 </html>
