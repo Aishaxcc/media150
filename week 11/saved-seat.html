@@ -2,36 +2,39 @@
 <html>
 <head>
   <title>Saved Seat</title>
-
   <style>
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-      background: linear-gradient(180deg, #2d1254, #6b4eff);
+      background: linear-gradient(rgba(45,18,84,0.75), rgba(45,18,84,0.75)), url('images/saved-seat.jpg');
+      background-size: cover;
+      background-position: center;
       color: white;
     }
 
     .box {
       position: absolute;
-      bottom: 80px;
+      bottom: 70px;
       left: 50%;
       transform: translateX(-50%);
       width: 75%;
-      background: rgba(45, 18, 84, 0.85);
+      background: rgba(45, 18, 84, 0.9);
       padding: 30px;
       border-radius: 12px;
       text-align: center;
     }
 
+    h1 { font-size: 42px; }
+    p { font-size: 20px; line-height: 1.5; }
+
     a {
       display: inline-block;
-      margin-top: 15px;
-      margin-right: 10px;
+      margin: 10px;
       padding: 12px 20px;
       background: #6b4eff;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 8px;
     }
 
     a:hover {
@@ -44,12 +47,11 @@
 <body>
   <div class="box">
     <h1>You Sit Down</h1>
+    <p>For three seconds, everything is peaceful.</p>
+    <p>Then someone says, “Sorry, I was saving that.” The whole room suddenly feels too quiet.</p>
 
-    <p>"Sorry… someone’s sitting there."</p>
-    <p>The entire room turns and looks at you.</p>
-
-    <a href="drink.html">Escape with a drink</a>
-    <a href="floor.html">Just sit on the floor</a>
+    <a href="drink.html">Escape and get a drink</a>
+    <a href="decision.html">Stay and think</a>
   </div>
 </body>
 </html>
