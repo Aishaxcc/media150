@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Ending 3</title>
+  <title>Hidden Seat</title>
 
   <style>
     body {
@@ -9,50 +9,108 @@
       font-family: "Times New Roman", serif;
 
       background:
-      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-      url('images/hidden-seat.jpg');
+      linear-gradient(rgba(20,20,20,0.45), rgba(20,20,20,0.45)),
+      url('images/ending-hidden.png');
 
       background-size: cover;
       background-position: center;
+      background-repeat: no-repeat;
+
+      height: 100vh;
+      overflow: hidden;
+
       color: white;
     }
 
     .box {
       position: absolute;
-      bottom: 80px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 75%;
-      background: rgba(0,0,0,0.75);
-      padding: 30px;
-      border-radius: 12px;
-      text-align: center;
+
+      top: 50%;
+      right: 60px;
+
+      transform: translateY(-50%);
+
+      width: 420px;
+
+      background: rgba(15, 15, 15, 0.72);
+
+      padding: 35px;
+
+      border-radius: 18px;
+
+      text-align: left;
+
+      backdrop-filter: blur(6px);
+
+      box-shadow: 0px 0px 30px rgba(0,0,0,0.35);
+    }
+
+    h1 {
+      font-size: 46px;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 21px;
+      line-height: 1.6;
     }
 
     a {
       display: inline-block;
-      margin-top: 18px;
-      padding: 12px 22px;
-      background: hotpink;
+
+      margin-top: 20px;
+
+      padding: 14px 22px;
+
+      background: #7c5cff;
+
       color: white;
+
       text-decoration: none;
-      border-radius: 8px;
+
+      border-radius: 10px;
+
+      transition: 0.3s ease;
     }
+
+    a:hover {
+      background: #ffe4ef;
+      color: black;
+
+      transform: scale(1.05);
+    }
+
   </style>
 </head>
 
 <body>
 
 <div class="box">
-  <h1>ENDING 3 — FOUND A PLACE</h1>
+
+  <h1>The Legendary Seat</h1>
 
   <p>
-    You finally sit down.
-    Not because someone allowed you to.
-    Because you stopped searching for permission.
+    After wandering through random hallways,
+    you discover a hidden empty room.
   </p>
 
-  <a href="index.html">Start Again</a>
+  <p>
+    Inside sits the most comfortable chair
+    you have ever seen in your life.
+  </p>
+
+  <p>
+    No people.
+    No stress.
+    No competition.
+  </p>
+
+  <p>
+    You win.
+  </p>
+
+  <a href="index.html">Restart Story</a>
+
 </div>
 
 </body>
