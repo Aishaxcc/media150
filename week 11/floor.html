@@ -1,57 +1,118 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
-  <title>The Floor</title>
+  <title>Floor Seat</title>
+
   <style>
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-      background: linear-gradient(rgba(45,18,84,0.75), rgba(45,18,84,0.75)), url('images/floor.jpg');
+
+      background:
+      linear-gradient(rgba(20,20,20,0.45), rgba(20,20,20,0.45)),
+      url('images/floor.png');
+
       background-size: cover;
       background-position: center;
+      background-repeat: no-repeat;
+
+      height: 100vh;
+      overflow: hidden;
+
       color: white;
     }
 
     .box {
       position: absolute;
-      bottom: 70px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 75%;
-      background: rgba(45, 18, 84, 0.9);
-      padding: 30px;
-      border-radius: 12px;
-      text-align: center;
+
+      top: 50%;
+      right: 60px;
+
+      transform: translateY(-50%);
+
+      width: 420px;
+
+      background: rgba(15, 15, 15, 0.72);
+
+      padding: 35px;
+
+      border-radius: 18px;
+
+      text-align: left;
+
+      backdrop-filter: blur(6px);
+
+      box-shadow: 0px 0px 30px rgba(0,0,0,0.35);
     }
 
-    h1 { font-size: 42px; }
-    p { font-size: 20px; line-height: 1.5; }
+    h1 {
+      font-size: 46px;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 21px;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 25px;
+    }
 
     a {
       display: inline-block;
-      margin: 10px;
-      padding: 12px 20px;
-      background: #6b4eff;
+
+      margin-right: 12px;
+      margin-top: 10px;
+
+      padding: 14px 22px;
+
+      background: #7c5cff;
+
       color: white;
+
       text-decoration: none;
-      border-radius: 8px;
+
+      border-radius: 10px;
+
+      transition: 0.3s ease;
     }
 
     a:hover {
       background: #ffe4ef;
       color: black;
+
+      transform: scale(1.05);
     }
+
   </style>
 </head>
 
 <body>
-  <div class="box">
-    <h1>You Sit on the Floor</h1>
-    <p>At first, it feels embarrassing.</p>
-    <p>Then another student sits nearby. Then another. Suddenly the floor does not feel like failure.</p>
 
-    <a href="ending-floor.html">Stay there</a>
-    <a href="decision.html">Get up again</a>
+<div class="box">
+
+  <h1>Floor Gang</h1>
+
+  <p>
+    You finally give up searching for the perfect seat.
+  </p>
+
+  <p>
+    You sit against the wall on the floor instead.
+  </p>
+
+  <p>
+    Weirdly enough, this is the most comfortable you've felt all day.
+  </p>
+
+  <div class="buttons">
+
+    <a href="ending-floor.html">Accept your fate</a>
+
   </div>
+
+</div>
+
 </body>
 </html>
