@@ -11,12 +11,15 @@
       font-family: "Times New Roman", serif;
       color: #222;
       margin: 0;
+      overflow-x: hidden;
     }
 
     .container {
       max-width: 950px;
       margin: 60px auto;
       padding: 40px;
+      position: relative;
+      z-index: 2;
     }
 
     h1 {
@@ -79,10 +82,50 @@
     a:hover {
       text-decoration: underline;
     }
+
+    /* BUTTERFLIES */
+
+    .butterfly {
+      position: fixed;
+      font-size: 32px;
+      opacity: 0.75;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .b1 {
+      top: 120px;
+      left: 60px;
+      transform: rotate(-15deg);
+    }
+
+    .b2 {
+      top: 340px;
+      right: 90px;
+      transform: rotate(20deg);
+    }
+
+    .b3 {
+      bottom: 120px;
+      left: 120px;
+      transform: rotate(12deg);
+    }
+
+    .b4 {
+      bottom: 220px;
+      right: 140px;
+      transform: rotate(-18deg);
+    }
+
   </style>
 </head>
 
 <body>
+
+<div class="butterfly b1">🦋</div>
+<div class="butterfly b2">🦋</div>
+<div class="butterfly b3">🦋</div>
+<div class="butterfly b4">🦋</div>
 
 <div class="container">
 
