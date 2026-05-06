@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Acceptance</title>
+  <title>Saved Seat</title>
 
   <style>
+
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
 
       background:
-      linear-gradient(rgba(20,20,20,0.45), rgba(20,20,20,0.45)),
-      url('images/ending-floor.png');
+      linear-gradient(rgba(20,20,20,0.25), rgba(20,20,20,0.25)),
+      url('images/saved-seat.png');
 
       background-size: cover;
       background-position: center;
@@ -23,6 +24,7 @@
     }
 
     .box {
+
       position: absolute;
 
       top: 50%;
@@ -30,37 +32,45 @@
 
       transform: translateY(-50%);
 
-      width: 420px;
+      width: 390px;
 
-      background: rgba(15, 15, 15, 0.72);
+      background: rgba(10,10,10,0.72);
 
-      padding: 35px;
+      padding: 34px;
 
       border-radius: 18px;
 
       text-align: left;
 
-      backdrop-filter: blur(6px);
+      backdrop-filter: blur(8px);
 
-      box-shadow: 0px 0px 30px rgba(0,0,0,0.35);
+      box-shadow: 0 0 30px rgba(0,0,0,0.35);
+
     }
 
     h1 {
-      font-size: 46px;
+      font-size: 56px;
       margin-top: 0;
+      margin-bottom: 18px;
     }
 
     p {
-      font-size: 21px;
-      line-height: 1.6;
+      font-size: 22px;
+      line-height: 1.7;
+      margin-bottom: 18px;
+    }
+
+    .buttons {
+      margin-top: 28px;
     }
 
     a {
+
       display: inline-block;
 
-      margin-top: 20px;
+      margin-right: 12px;
 
-      padding: 14px 22px;
+      padding: 14px 24px;
 
       background: #7c5cff;
 
@@ -70,14 +80,19 @@
 
       border-radius: 10px;
 
+      font-size: 18px;
+
       transition: 0.3s ease;
+
     }
 
     a:hover {
+
       background: #ffe4ef;
       color: black;
 
       transform: scale(1.05);
+
     }
 
   </style>
@@ -85,26 +100,29 @@
 
 <body>
 
-<div class="box">
+  <div class="box">
 
-  <h1>Floor Victory</h1>
+    <h1>You Sit Down</h1>
 
-  <p>
-    You sit on the floor for the rest of the break.
-  </p>
+    <p>
+      For three seconds, everything feels peaceful.
+    </p>
 
-  <p>
-    Eventually, other students start sitting nearby too.
-  </p>
+    <p>
+      Then someone says,
+      “Sorry, I was saving that.”
+      The whole room suddenly feels too quiet.
+    </p>
 
-  <p>
-    Maybe there was never a perfect seat.
-    Maybe comfort was just accepting where you ended up.
-  </p>
+    <div class="buttons">
 
-  <a href="index.html">Play Again</a>
+      <a href="drink.html">Escape and get a drink</a>
 
-</div>
+      <a href="decision.html">Stay and think</a>
+
+    </div>
+
+  </div>
 
 </body>
 </html>
