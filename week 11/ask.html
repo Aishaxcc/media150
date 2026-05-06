@@ -8,13 +8,13 @@
       margin: 0;
       font-family: "Times New Roman", serif;
 
-      background:
-      linear-gradient(rgba(20,20,20,0.45), rgba(20,20,20,0.45)),
+      background-image:
+      linear-gradient(rgba(20,10,40,0.35), rgba(20,10,40,0.35)),
       url('images/ask.png');
 
       background-size: cover;
       background-position: center;
-      background-repeat: no-repeat;
+
       height: 100vh;
       overflow: hidden;
       color: white;
@@ -22,95 +22,93 @@
 
     .box {
       position: absolute;
-      bottom: 70px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 75%;
 
-      background: rgba(15, 15, 15, 0.72);
+      top: 50%;
+      right: 70px;
 
-      padding: 35px;
-      border-radius: 16px;
+      transform: translateY(-50%);
 
-      text-align: center;
+      width: 420px;
 
-      backdrop-filter: blur(4px);
+      background: rgba(45,18,84,0.72);
 
-      box-shadow: 0px 0px 30px rgba(0,0,0,0.35);
+      backdrop-filter: blur(8px);
+
+      padding: 30px;
+
+      border-radius: 18px;
+
+      box-shadow: 0 0 30px rgba(0,0,0,0.4);
     }
 
     h1 {
-      font-size: 54px;
-      margin-bottom: 15px;
+      font-size: 44px;
+      margin-top: 0;
     }
 
     p {
-      font-size: 22px;
+      font-size: 21px;
       line-height: 1.6;
-      max-width: 900px;
-      margin: auto;
-      margin-bottom: 12px;
     }
 
     .buttons {
-      margin-top: 28px;
+      margin-top: 25px;
     }
 
     a {
       display: inline-block;
 
-      margin: 10px;
-      padding: 14px 26px;
+      margin-right: 12px;
+      margin-top: 10px;
 
-      background: #7c5cff;
+      padding: 14px 22px;
+
+      background: #7d5fff;
 
       color: white;
+
       text-decoration: none;
 
       border-radius: 10px;
 
-      font-size: 18px;
-
-      transition: 0.3s ease;
+      transition: 0.3s;
     }
 
     a:hover {
       background: #ffe4ef;
       color: black;
-
-      transform: scale(1.05);
     }
+
   </style>
 </head>
 
 <body>
 
-  <div class="box">
+<div class="box">
 
-    <h1>You Ask First</h1>
+  <h1>You Ask First</h1>
 
-    <p>
-      “Is anyone sitting here?” you ask quietly.
-    </p>
+  <p>
+    “Is anyone sitting here?” you ask.
+  </p>
 
-    <p>
-      The person says no, but their bag, charger,
-      coat, coffee, and notebook still take up most
-      of the space.
-    </p>
+  <p>
+    The student looks up for a second and says,
+    “Uh… no.”
+  </p>
 
-    <p>
-      You sit anyway, but suddenly become hyperaware
-      of every movement your body makes.
-    </p>
+  <p>
+    But their bag, charger, coffee, jacket,
+    and notebook are still spread across the entire couch.
+  </p>
 
-    <div class="buttons">
-      <a href="drink.html">Relax with a drink</a>
+  <div class="buttons">
+    <a href="drink.html">Relax with a drink</a>
 
-      <a href="decision.html">Still feel unsure</a>
-    </div>
-
+    <a href="decision.html">Still feel unsure</a>
   </div>
+
+</div>
 
 </body>
 </html>
