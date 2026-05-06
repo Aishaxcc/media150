@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Hidden Seat</title>
+  <title>Hidden Seat Ending</title>
 
   <style>
+
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
 
       background:
-      linear-gradient(rgba(20,20,20,0.45), rgba(20,20,20,0.45)),
+      linear-gradient(rgba(20,20,20,0.30), rgba(20,20,20,0.30)),
       url('images/ending-hidden.png');
 
       background-size: cover;
@@ -23,44 +24,46 @@
     }
 
     .box {
+
       position: absolute;
 
+      right: 90px;
       top: 50%;
-      right: 60px;
 
       transform: translateY(-50%);
 
-      width: 420px;
+      width: 340px;
 
-      background: rgba(15, 15, 15, 0.72);
+      background: rgba(15,15,15,0.82);
 
-      padding: 35px;
+      padding: 32px;
 
-      border-radius: 18px;
+      border-radius: 16px;
 
-      text-align: left;
-
-      backdrop-filter: blur(6px);
+      backdrop-filter: blur(4px);
 
       box-shadow: 0px 0px 30px rgba(0,0,0,0.35);
+
     }
 
     h1 {
-      font-size: 46px;
+      font-size: 52px;
       margin-top: 0;
+      margin-bottom: 18px;
     }
 
     p {
-      font-size: 21px;
-      line-height: 1.6;
+      font-size: 22px;
+      line-height: 1.7;
     }
 
     a {
+
       display: inline-block;
 
       margin-top: 20px;
 
-      padding: 14px 22px;
+      padding: 14px 24px;
 
       background: #7c5cff;
 
@@ -71,13 +74,16 @@
       border-radius: 10px;
 
       transition: 0.3s ease;
+
     }
 
     a:hover {
+
       background: #ffe4ef;
       color: black;
 
       transform: scale(1.05);
+
     }
 
   </style>
@@ -85,33 +91,28 @@
 
 <body>
 
-<div class="box">
+  <div class="box">
 
-  <h1>The Legendary Seat</h1>
+    <h1>The Legendary Seat</h1>
 
-  <p>
-    After wandering through random hallways,
-    you discover a hidden empty room.
-  </p>
+    <p>
+      After wandering through random hallways,
+      you discover a hidden empty room.
+    </p>
 
-  <p>
-    Inside sits the most comfortable chair
-    you have ever seen in your life.
-  </p>
+    <p>
+      Inside sits the most comfortable chair
+      you have ever seen in your life.
+    </p>
 
-  <p>
-    No people.
-    No stress.
-    No competition.
-  </p>
+    <p>
+      No people. No stress. No competition.
+      You win.
+    </p>
 
-  <p>
-    You win.
-  </p>
+    <a href="index.html">Restart Story</a>
 
-  <a href="index.html">Restart Story</a>
-
-</div>
+  </div>
 
 </body>
 </html>
