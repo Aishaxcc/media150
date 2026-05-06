@@ -7,59 +7,117 @@
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
+
       background:
-      linear-gradient(rgba(20,20,20,0.6), rgba(20,20,20,0.6)),
-      url('images/outside.jpg');
+      linear-gradient(rgba(20,20,20,0.45), rgba(20,20,20,0.45)),
+      url('images/decision.png');
 
       background-size: cover;
       background-position: center;
+      background-repeat: no-repeat;
+
+      height: 100vh;
+      overflow: hidden;
+
       color: white;
     }
 
     .box {
       position: absolute;
-      bottom: 80px;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 75%;
-      background: rgba(0,0,0,0.75);
-      padding: 30px;
-      border-radius: 12px;
-      text-align: center;
+
+      top: 50%;
+      right: 60px;
+
+      transform: translateY(-50%);
+
+      width: 420px;
+
+      background: rgba(15, 15, 15, 0.72);
+
+      padding: 35px;
+
+      border-radius: 18px;
+
+      text-align: left;
+
+      backdrop-filter: blur(6px);
+
+      box-shadow: 0px 0px 30px rgba(0,0,0,0.35);
+    }
+
+    h1 {
+      font-size: 46px;
+      margin-top: 0;
+    }
+
+    p {
+      font-size: 21px;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 25px;
     }
 
     a {
       display: inline-block;
-      margin: 12px;
-      padding: 12px 22px;
-      background: hotpink;
+
+      margin-right: 12px;
+      margin-top: 10px;
+
+      padding: 14px 22px;
+
+      background: #7c5cff;
+
       color: white;
+
       text-decoration: none;
-      border-radius: 8px;
-      font-size: 18px;
+
+      border-radius: 10px;
+
+      transition: 0.3s ease;
     }
 
     a:hover {
-      background: deeppink;
+      background: #ffe4ef;
+      color: black;
+
+      transform: scale(1.05);
     }
+
   </style>
 </head>
 
 <body>
 
 <div class="box">
-  <h1>You stop walking.</h1>
+
+  <h1>Still Unsure</h1>
+
+  <p>
+    You step back into the hallway for a moment.
+  </p>
+
+  <p>
+    Students pass by without hesitation while you stand there
+    wondering why sitting down suddenly feels so complicated.
+  </p>
 
   <p>
     Maybe the problem was never the seat.
-    Maybe it was caring too much about being seen.
+    Maybe it was the feeling of taking up space at all.
   </p>
 
-  <a href="ending-floor.html">Sit on the floor</a>
+  <div class="buttons">
 
-  <a href="ending-spill.html">Go back inside</a>
+    <a href="floor.html">Sit on the floor</a>
 
-  <a href="hidden-seat.html">Keep wandering</a>
+    <a href="outside.html">Go outside</a>
+
+    <a href="ending-hidden.html">Look for another spot</a>
+
+  </div>
+
 </div>
 
 </body>
