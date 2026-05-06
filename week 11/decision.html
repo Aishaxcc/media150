@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>The Pause</title>
+  <title>Decision</title>
+
   <style>
     body {
       margin: 0;
       font-family: "Times New Roman", serif;
-      background: linear-gradient(rgba(45,18,84,0.75), rgba(45,18,84,0.75)), url('images/decision.jpg');
+      background:
+      linear-gradient(rgba(20,20,20,0.6), rgba(20,20,20,0.6)),
+      url('images/outside.jpg');
+
       background-size: cover;
       background-position: center;
       color: white;
@@ -14,44 +18,49 @@
 
     .box {
       position: absolute;
-      bottom: 70px;
+      bottom: 80px;
       left: 50%;
       transform: translateX(-50%);
       width: 75%;
-      background: rgba(45, 18, 84, 0.9);
+      background: rgba(0,0,0,0.75);
       padding: 30px;
       border-radius: 12px;
       text-align: center;
     }
 
-    h1 { font-size: 42px; }
-    p { font-size: 20px; line-height: 1.5; }
-
     a {
       display: inline-block;
-      margin: 10px;
-      padding: 12px 20px;
-      background: #6b4eff;
+      margin: 12px;
+      padding: 12px 22px;
+      background: hotpink;
       color: white;
       text-decoration: none;
       border-radius: 8px;
+      font-size: 18px;
     }
 
     a:hover {
-      background: #ffe4ef;
-      color: black;
+      background: deeppink;
     }
   </style>
 </head>
 
 <body>
-  <div class="box">
-    <h1>You Pause</h1>
-    <p>You stop in the hallway and realize how tired you are.</p>
-    <p>The problem is not just the chair. It is the feeling that there is nowhere made for you to wait.</p>
 
-    <a href="ending-spill.html">Force yourself into a seat</a>
-    <a href="ending-floor.html">Make your own space</a>
-  </div>
+<div class="box">
+  <h1>You stop walking.</h1>
+
+  <p>
+    Maybe the problem was never the seat.
+    Maybe it was caring too much about being seen.
+  </p>
+
+  <a href="ending-floor.html">Sit on the floor</a>
+
+  <a href="ending-spill.html">Go back inside</a>
+
+  <a href="hidden-seat.html">Keep wandering</a>
+</div>
+
 </body>
 </html>
